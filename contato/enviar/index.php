@@ -60,8 +60,8 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['m
 	$mail->isSMTP();
 	$mail->Host = 'smtp-relay.sendinblue.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'joaofranciscogmartins@gmail.com';
-	$mail->Password = 'sFEQvIH1t3WVbCr6';
+	$mail->Username = '';
+	$mail->Password = '';
 	$mail->Port = 587; //587
     $mail->CharSet = 'UTF-8';
 
